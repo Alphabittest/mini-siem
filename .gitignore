@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+# logs reais da máquina nunca entram no repositório
+*.real.log
+relatorio*.md
+relatorio*.json

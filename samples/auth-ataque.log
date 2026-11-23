@@ -1,0 +1,39 @@
+2026-11-20T02:00:01-03:00 srv-web01 CROND[1201]: (root) CMD (/usr/local/bin/backup.sh)
+2026-11-20T02:30:00-03:00 srv-web01 systemd[1]: Started Daily Cleanup of Temporary Directories.
+2026-11-20T03:14:03-03:00 srv-web01 sshd[4100]: Failed password for root from 203.0.113.45 port 51000 ssh2
+2026-11-20T03:14:09-03:00 srv-web01 sshd[4101]: Invalid user admin from 203.0.113.45 port 51001
+2026-11-20T03:14:10-03:00 srv-web01 sshd[4101]: Failed password for invalid user admin from 203.0.113.45 port 51001 ssh2
+2026-11-20T03:14:16-03:00 srv-web01 sshd[4102]: Invalid user oracle from 203.0.113.45 port 51002
+2026-11-20T03:14:17-03:00 srv-web01 sshd[4102]: Failed password for invalid user oracle from 203.0.113.45 port 51002 ssh2
+2026-11-20T03:14:23-03:00 srv-web01 sshd[4103]: Invalid user postgres from 203.0.113.45 port 51003
+2026-11-20T03:14:24-03:00 srv-web01 sshd[4103]: Failed password for invalid user postgres from 203.0.113.45 port 51003 ssh2
+2026-11-20T03:14:30-03:00 srv-web01 sshd[4104]: Invalid user test from 203.0.113.45 port 51004
+2026-11-20T03:14:31-03:00 srv-web01 sshd[4104]: Failed password for invalid user test from 203.0.113.45 port 51004 ssh2
+2026-11-20T03:14:37-03:00 srv-web01 sshd[4105]: Invalid user ubuntu from 203.0.113.45 port 51005
+2026-11-20T03:14:38-03:00 srv-web01 sshd[4105]: Failed password for invalid user ubuntu from 203.0.113.45 port 51005 ssh2
+2026-11-20T03:14:45-03:00 srv-web01 sshd[4106]: Failed password for root from 203.0.113.45 port 51006 ssh2
+2026-11-20T03:14:51-03:00 srv-web01 sshd[4107]: Invalid user admin from 203.0.113.45 port 51007
+2026-11-20T03:14:52-03:00 srv-web01 sshd[4107]: Failed password for invalid user admin from 203.0.113.45 port 51007 ssh2
+2026-11-20T03:40:10-03:00 srv-web01 sshd-session[4300]: Failed password for deploy from 198.51.100.23 port 40100 ssh2
+2026-11-20T03:40:25-03:00 srv-web01 sshd-session[4301]: Failed password for deploy from 198.51.100.23 port 40101 ssh2
+2026-11-20T03:40:40-03:00 srv-web01 sshd-session[4302]: Failed password for deploy from 198.51.100.23 port 40102 ssh2
+2026-11-20T03:40:55-03:00 srv-web01 sshd-session[4303]: Failed password for deploy from 198.51.100.23 port 40103 ssh2
+2026-11-20T03:41:10-03:00 srv-web01 sshd-session[4304]: Failed password for deploy from 198.51.100.23 port 40104 ssh2
+2026-11-20T03:41:25-03:00 srv-web01 sshd-session[4305]: Failed password for deploy from 198.51.100.23 port 40105 ssh2
+2026-11-20T03:41:40-03:00 srv-web01 sshd-session[4306]: Failed password for deploy from 198.51.100.23 port 40106 ssh2
+2026-11-20T03:41:55-03:00 srv-web01 sshd-session[4307]: Failed password for deploy from 198.51.100.23 port 40107 ssh2
+2026-11-20T03:42:15-03:00 srv-web01 sshd-session[4310]: Accepted password for deploy from 198.51.100.23 port 40110 ssh2
+2026-11-20T03:42:55-03:00 srv-web01 sudo[4320]:   deploy : TTY=pts/1 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+2026-11-20T03:43:30-03:00 srv-web01 sudo[4321]:   deploy : TTY=pts/1 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/sbin/useradd -m suporte
+2026-11-20T03:43:30-03:00 srv-web01 useradd[4322]: new user: name=suporte, UID=1002, GID=1002, home=/home/suporte, shell=/bin/bash, from=/dev/pts/1
+2026-11-20T03:43:45-03:00 srv-web01 sudo[4323]:   deploy : TTY=pts/1 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/sbin/usermod -aG wheel suporte
+2026-11-20T03:43:45-03:00 srv-web01 usermod[4324]: add 'suporte' to group 'wheel'
+2026-11-20T03:43:45-03:00 srv-web01 usermod[4324]: add 'suporte' to shadow group 'wheel'
+2026-11-20T08:12:44-03:00 srv-web01 sshd-session[5001]: Accepted publickey for ana from 192.0.2.10 port 50222 ssh2: ED25519 SHA256:exemploexemploexemplo
+2026-11-20T08:13:02-03:00 srv-web01 sudo[5010]:     ana : TTY=pts/0 ; PWD=/home/ana ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+2026-11-20T09:01:10-03:00 srv-web01 sudo[5020]: pam_unix(sudo:auth): authentication failure; logname=ana uid=1000 euid=0 tty=/dev/pts/0 ruser=ana rhost=  user=ana
+2026-11-20T09:01:15-03:00 srv-web01 sudo[5020]:     ana : TTY=pts/0 ; PWD=/home/ana ; USER=root ; COMMAND=/usr/bin/journalctl -u nginx
+2026-11-20T14:05:00-03:00 srv-web01 sudo[5100]: pam_unix(sudo:auth): authentication failure; logname=ana uid=1000 euid=0 tty=/dev/pts/2 ruser=ana rhost=  user=ana
+2026-11-20T14:05:12-03:00 srv-web01 sudo[5100]: pam_unix(sudo:auth): authentication failure; logname=ana uid=1000 euid=0 tty=/dev/pts/2 ruser=ana rhost=  user=ana
+2026-11-20T14:05:24-03:00 srv-web01 sudo[5100]: pam_unix(sudo:auth): authentication failure; logname=ana uid=1000 euid=0 tty=/dev/pts/2 ruser=ana rhost=  user=ana
+2026-11-20T14:05:40-03:00 srv-web01 sudo[5100]:     ana : 3 incorrect password attempts ; TTY=pts/2 ; PWD=/home/ana ; USER=root ; COMMAND=/usr/bin/pacman -Syu
